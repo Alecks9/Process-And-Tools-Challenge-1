@@ -49,6 +49,16 @@ public class Item {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "item{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", desc='" + desc + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
 
 }
 
